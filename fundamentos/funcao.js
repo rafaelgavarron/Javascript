@@ -14,4 +14,4 @@ function soma(a, b = 0) {
 
 console.log(soma(2, 3));
 console.log(soma(2));
-//por mais que tenha só o a, ainda assim faz a conta pois o b ja esta setado blaaaa
+//por mais que tenha só o a, ainda assim faz a conta pois o b ja esta setado
