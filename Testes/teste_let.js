@@ -6,3 +6,5 @@ let ola = 'oi,tudo bem';
   console.log(ola);
 }
 console.log(ola);
+
+console.log(77 + 33);
