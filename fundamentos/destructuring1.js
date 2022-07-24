@@ -18,7 +18,7 @@ const { nome: n, idade: i } = pessoa;
 //agora a 'variavel' nome se tornou n e a variavel idade se tornou 'i'
 console.log(n, i);
 
-const { sobrenome, bemHumorada = true } = pessoa;
+const { sobrenome, bemHumorada = true } = pessoa; // esse igual é pra falar qual objeto é
 console.log(sobrenome, bemHumorada);
 //tanto sobrenome quanto bemHumorada não foram definidas,porém
 //no caso de de bemHumorada se não for definida
