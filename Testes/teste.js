@@ -18,4 +18,7 @@ var str_data = dia + '/' + (mes + 1) + '/' + ano4;
 var str_hora = hora + ':' + min + ':' + seg;
 
 // Mostra o resultado
+if (dia_sem == 0) {
+  dia_sem = 'domingo';
+}
 console.log('Hoje é ' + dia_sem + ' às ' + str_hora);
