@@ -4,8 +4,9 @@
 function soBoaNoticia(nota) {
   if (nota >= 7) {
     console.log('nossa,vc passou com ' + nota);
-  } else {
-    console.log('nossa vc reprovou com ' + nota <= 7);
+  }
+  if (nota < 7) {
+    console.log('reprovou mane');
   }
 }
 
