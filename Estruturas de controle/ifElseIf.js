@@ -23,3 +23,5 @@ imprimirResultado(6.55); //Recuperação
 imprimirResultado(2.3); //Reprovado
 imprimirResultado(-1); //Nota inválida
 imprimirResultado(11); //Nota inválida
+
+//ele só vai passar em um, quando cair em um ele vai parar
