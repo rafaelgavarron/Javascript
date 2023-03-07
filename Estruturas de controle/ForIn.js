@@ -1,6 +1,6 @@
 const notas = [6.7, 7.4, 9.8, 8.1, 7.7]; //array começa pelo indice 0
 
-for (const i in notas) {
+for (let i in notas) {
   console.log(i, notas[i]); //indices com o array
 }
 
@@ -11,6 +11,6 @@ const pessoa = {
   peso: 64,
 };
 
-for (const atributo in pessoa) {
-  console.log(`${atributo} `);
+for (let atributo in pessoa) {
+  console.log(`${atributo} = ${pessoa[atributo]}`); // ele tá percorrendo o objeto
 }
